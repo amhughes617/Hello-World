@@ -5,7 +5,7 @@ public class Person {
     public String name;
     public int age;
     public boolean isAlive = true;
-   // public String address;    will add a class to handle this
+    public StreetAddress address;
 
     public Person() {}       // would allow the option to create a blank empty object
 
@@ -13,10 +13,11 @@ public class Person {
         this(name, age, true);   calling next constructor to fill name and age and explicitly setting isAlive to true
     }*/
 
-    public Person(String name, int age, boolean isAlive) {
+    public Person(String name, int age, boolean isAlive,StreetAddress address) {
         this.name = name;           //this could also be setName(name);
         this.age = age;
         this.isAlive = isAlive;
+        this.address = address;
     }
 
     public String getName() {

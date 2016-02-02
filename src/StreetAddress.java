@@ -12,11 +12,11 @@ public class StreetAddress {        //Stores full street address
 
 
     public StreetAddress(int number, String streetName, String city, String state, int zipcode, boolean isCommercial) {
-        this.number = number;
-        this.streetName = streetName;
-        this.city = city;
-        this.state = state;
-        this.zipcode = zipcode;
+        setNumber(number);
+        setStreetName(streetName);
+        setCity(city);
+        setState(state);
+        setZipcode(zipcode);
     }
 
     public int getNumber() {

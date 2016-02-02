@@ -16,7 +16,7 @@ public class LightBulb {
         return wattage;
     }
     public void setWattage(double wattage) {
-        if(wattage >= 0) {
+        if(wattage >= 0) {      //will not accept a negative wattage
             this.wattage = wattage;
         }
     }
