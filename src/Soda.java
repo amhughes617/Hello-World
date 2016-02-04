@@ -38,4 +38,13 @@ public class Soda {
     public void setIsDiet(boolean isDiet) {
         this.isDiet = isDiet;
     }
+
+    @Override
+    public String toString() {
+        return "Soda{" +
+                "brand='" + brand + '\'' +
+                ", calorieCount=" + calorieCount +
+                ", isDiet=" + isDiet +
+                '}';
+    }
 }

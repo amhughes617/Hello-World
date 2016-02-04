@@ -6,10 +6,9 @@ public class StreetAddress {        //Stores full street address
     public int number;
     public String streetName;
     public String city;
-    public String state;
+    public String state = "SC";
     public int zipcode;
     public boolean isCommercial;    // indicates whether this is a commercial property
-
 
     public StreetAddress(int number, String streetName, String city, String state, int zipcode, boolean isCommercial) {
         setNumber(number);
@@ -58,4 +57,6 @@ public class StreetAddress {        //Stores full street address
     public boolean isSCResident(String state) {
         return state.contains("SC");
     }
+
+
 }
