@@ -5,7 +5,7 @@ public class Person {
     public String name;
     public int age;
     public boolean isAlive = true;
-    public static StreetAddress address;
+   // public static StreetAddress address;
 
 
     public Person() {}       // would allow the option to create a blank empty object
