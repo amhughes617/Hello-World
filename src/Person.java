@@ -8,7 +8,7 @@ public class Person {
    // public static StreetAddress address;
 
 
-    public Person() {}       // would allow the option to create a blank empty object
+       // would allow the option to create a blank empty object
 
    /* public Person(String name, int age) {
         this(name, age, true);   calling next constructor to fill name and age and explicitly setting isAlive to true
@@ -50,5 +50,14 @@ public class Person {
 
     public static boolean isValidName(String name) {
         return name.contains(" ");
+    }
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", isAlive=" + isAlive +
+                '}';
     }
 }
