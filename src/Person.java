@@ -7,8 +7,11 @@ public class Person {
     public boolean isAlive = true;
    // public static StreetAddress address;
 
+    public Person() {
+    }
 
-       // would allow the option to create a blank empty object
+
+    // would allow the option to create a blank empty object
 
    /* public Person(String name, int age) {
         this(name, age, true);   calling next constructor to fill name and age and explicitly setting isAlive to true
