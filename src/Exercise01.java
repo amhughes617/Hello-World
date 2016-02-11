@@ -15,14 +15,12 @@ public class Exercise01 {
             if (!nameMap.containsKey(firstLetter)) {
                 nameMap.put(firstLetter, new ArrayList<>());
             }
-            else {
-                nameMap.get(firstLetter).add(name);
-            }
+            nameMap.get(firstLetter).add(name);
         }
-        //add names
+        //add names if using two for loops one to add all needed ArrayLists first, this one to add names
        // for (String name : names) {
        //     char firstLetter = name.charAt(0);
-       //     nameMap.get(firstLetter).add(name);
+       //     nameMap.get(firstLetter).add(name);®
       //  }
         System.out.println(nameMap);
 
