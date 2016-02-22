@@ -13,7 +13,7 @@ public class Email implements Comparable {//interface implement
         this.subject = subject;
     }
 
-    @Override// lets Collections.sort(allEmails) to work
+    @Override// lets Collections.sort(allEmails) to workpr
     public int compareTo(Object o) {
         Email e = (Email) o;
         return destination.compareTo(e.destination);
